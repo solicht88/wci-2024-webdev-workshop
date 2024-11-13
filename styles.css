@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&display=swap");
+
+body {
+  color: #ebebeb;
+  background-color: #0c1713;
+  font-family: "Playwrite GB S";
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.landing h1 {
+  color: #ebebeb;
+  font-size: 2rem;
+}
+
+.landing h2 {
+  color: #c6c6c6;
+  font-size: 1.5rem;
+}
+
+.landing h3 {
+  color: #c6c6c6;
+  font-size: 1.25rem;
+}
+
+.landing p {
+  color: #c6c6c6;
+  font-size: 0.75rem;
+}
+
+.landing a {
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+.landing a:hover {
+  color: #52489c;
+}
+
+.char-images {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 20vw 5vw 20vw 5vw 20vw 5vw 20vw 1fr;
+  grid-template-rows: 1fr, 5vh;
+}
+
+.char-images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.char-text a {
+  color: #c6c6c6;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.char-text a:hover {
+  color: #52489c;
+}
